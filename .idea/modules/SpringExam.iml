@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="4">
+  <component name="FacetManager">
+    <facet type="web" name="Webapp">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/../../src/webapp/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/../../src/webapp" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="Spring" name="Spring">
+      <configuration>
+        <fileset id="web dispatcher servlet context" name="MVC dispatcher servlet context" removed="true">
+          <dependency>web application context</dependency>
+          <file>file://$MODULE_DIR$/../../src/webapp/WEB-INF/dispatcher-servlet.xml</file>
+        </fileset>
+        <fileset id="fileset2" name="MVC application context" removed="false">
+          <file>file://$MODULE_DIR$/../../src/webapp/WEB-INF/spring/root-context.xml</file>
+        </fileset>
+        <fileset id="fileset" name="Mvc dispather servlet context" removed="false">
+          <dependency>fileset2</dependency>
+          <file>file://$MODULE_DIR$/../../src/webapp/WEB-INF/spring/appServlet/servlet-context.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+</module>
