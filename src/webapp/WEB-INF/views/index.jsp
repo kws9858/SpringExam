@@ -692,7 +692,7 @@
             <div class="col-md-6 col-lg-3 mb-4 mb-md-0">
                 <h2 class="footer-heading">Latest News</h2>
                 <div class="block-21 mb-4 d-flex">
-                    <a class="img mr-4 rounded" style="background-image: url(/resources/images/image_1.jpg);"></a>
+                    <a class="img mr-4 rounded" style="background-image: url(/resources/images/image_1.jpg);"></a>aaaaa
                     <div class="text">
                         <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about</a></h3>
                         <div class="meta">
