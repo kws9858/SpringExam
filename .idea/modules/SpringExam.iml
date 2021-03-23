@@ -4,11 +4,13 @@
     <facet type="web" name="Webapp">
       <configuration>
         <descriptors>
+          <deploymentDescriptor name="context.xml" url="file://$MODULE_DIR$/../../src/webapp/META-INF/context.xml" />
           <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/../../src/webapp/WEB-INF/web.xml" />
         </descriptors>
         <webroots>
           <root url="file://$MODULE_DIR$/../../src/webapp" relative="/" />
         </webroots>
+        <sourceRoots />
       </configuration>
     </facet>
     <facet type="Spring" name="Spring">
@@ -17,10 +19,13 @@
           <dependency>web application context</dependency>
           <file>file://$MODULE_DIR$/../../src/webapp/WEB-INF/dispatcher-servlet.xml</file>
         </fileset>
-        <fileset id="fileset2" name="MVC application context" removed="false">
+        <fileset id="fileset3" name="Spring Application Context" removed="false">
+          <file>file://$MODULE_DIR$/../../src/main/resources/database.properties</file>
+        </fileset>
+        <fileset id="fileset2" name="MVC application Context " removed="false">
           <file>file://$MODULE_DIR$/../../src/webapp/WEB-INF/spring/root-context.xml</file>
         </fileset>
-        <fileset id="fileset" name="Mvc dispather servlet context" removed="false">
+        <fileset id="fileset" name="Mvc dispather servlet Context" removed="false">
           <dependency>fileset2</dependency>
           <file>file://$MODULE_DIR$/../../src/webapp/WEB-INF/spring/appServlet/servlet-context.xml</file>
         </fileset>
